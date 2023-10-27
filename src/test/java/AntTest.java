@@ -18,7 +18,7 @@ public class AntTest {
     public int expected;
 
     @Parameterized.Parameters(name = "Plank length {0}, left position {1}, right position {2}. Result - {3} rounds")
-    public static Object[][] getMultiplicationData() {
+    public static Object[][] getAntsMovementResult() {
         return new Object[][] {
                 {3, 3, 2, 1},
                 {6, 6, 1, 5},
